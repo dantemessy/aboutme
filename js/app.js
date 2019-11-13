@@ -14,7 +14,7 @@ q2 = q2.toLowerCase();
 q3 = q3.toLowerCase();
 q4 = q4.toLowerCase();
 q5 = q5.toLowerCase();
-
+function firstFive(){
 if (q1 === 'yes' || q1 === 'y') {
     result = result + 1
     // console.log(q1);
@@ -39,7 +39,7 @@ if (q5 === 'no' || q5 === 'n') {
 }
 // console.log(q5);
 
-
+}
 alert('Good Job ' + user + ' Your score is: ' + result + '  Where is 5 mean you know me well and 0 mean you know nothing about me ');
 
 alert(user + ' lets Play another game ! ');
