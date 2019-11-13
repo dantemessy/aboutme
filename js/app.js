@@ -14,7 +14,7 @@ q2 = q2.toLowerCase();
 q3 = q3.toLowerCase();
 q4 = q4.toLowerCase();
 q5 = q5.toLowerCase();
-
+function firstFive(){
 if (q1 === 'yes' || q1 === 'y') {
     result = result + 1
     // console.log(q1);
@@ -39,11 +39,12 @@ if (q5 === 'no' || q5 === 'n') {
 }
 // console.log(q5);
 
-
+} firstFive();
 alert('Good Job ' + user + ' Your score is: ' + result + '  Where is 5 mean you know me well and 0 mean you know nothing about me ');
 
 alert(user + ' lets Play another game ! ');
 
+function guessGame(){
 var guess = prompt('guess what the number i think of ?? (choose a number from 1 to 10) ');
 
 // for (var i = 0, i =< 3 , i++ ){}
@@ -71,11 +72,11 @@ while (x !== 3) {
     }
 
 }
-
+} guessGame(); 
 alert('The right answer is 7');
 
 
-
+function animeGuess(){
 var animeList = ["bleach", "death note", "demons slayer", "never land", "erased"];
 var animeAnswer = prompt("Now you need to Guess one of my top 10 favourites Anime ! ");
 
@@ -90,7 +91,7 @@ for (var i = 0; i < 5; i++) {
 
     }
 }
-
+} animeGuess();
 alert("and this is the list from array : bleach, death note, demons slayer, never land and erased") ;
 
 alert ( "So Your Final Score is: " +result+ " Points")
