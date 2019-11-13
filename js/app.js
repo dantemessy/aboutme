@@ -81,9 +81,9 @@ var animeAnswer = prompt("Now you need to Guess one of my top 10 favourites Anim
 
 for (var i = 0; i < 5; i++) {
     if (animeAnswer == animeList[0] || animeAnswer == animeList[1] || animeAnswer == animeList[2] || animeAnswer == animeList[3] || animeAnswer == animeList[4]) {
-        alert('Yeeeeeea , its one of my fav');
-        i = 7;
-        result++ ;
+    alert('Yeeeeeea , its one of my fav');
+     i = 7;
+    result++ ;
 
     } else if (animeAnswer !== animeList[0] || animeAnswer !== animeList[1] || animeAnswer !== animeList[2] || animeAnswer !== animeList[3] || animeAnswer !== animeList[4]) {
         var animeAnswer = prompt("Wrong Try Again");

@@ -33,6 +33,8 @@ h3{
 li{
     text-align: center;
 }
-
+ol ul{
+    list-style-type: decimal;
+}
 
 
