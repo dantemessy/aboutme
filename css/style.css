@@ -14,6 +14,7 @@ p{
     text-align: center;
     font-size: large;
     margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 img{
@@ -35,6 +36,10 @@ li{
 }
 ol ul{
     list-style-type: decimal;
+}
+
+footer{
+    background-color: cadetblue;
 }
 
 
